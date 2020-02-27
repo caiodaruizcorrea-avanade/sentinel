@@ -70,7 +70,10 @@
                                             "type": "string"
                                         },
                                         "Subject": {
-                                            "type": "string"
+                                            "type": [
+                                                "string",
+                                                "null"
+                                            ]
                                         },
                                         "ToIP": {
                                             "type": [
